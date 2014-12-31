@@ -31,6 +31,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=shamu BUILD_FINGERPRINT="google/sha
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
-    vendor/purity/prebuilt/bootanimation/bootanimation_1080.zip:system/media/bootanimation.zip
+    vendor/purity/prebuilt/bootanimation/bootanimation_shamu.zip:system/media/bootanimation.zip
 
 endif

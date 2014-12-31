@@ -25,6 +25,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/purity/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/purity/overlay/$(TARGET_PRODUCT)
 
+# Gapps backup script
+PRODUCT_COPY_FILES += \
+    vendor/purity/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/purity/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/purity/prebuilt/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh 
+
 # APN
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml

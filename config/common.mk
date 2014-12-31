@@ -29,7 +29,11 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/purity/overlay/$(TARGET_PRODUCT)
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/purity/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/purity/prebuilt/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh 
+    vendor/purity/prebuilt/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
+
+# Purity U2D
+PRODUCT_COPY_FILES += \
+    vendor/purity/prebuilt/apk/PurityU2D.apk:system/app/PurityU2D.apk
 
 # APN
 PRODUCT_COPY_FILES += \

@@ -17,6 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
+    ro.com.google.clientidbase=android-google \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy
@@ -34,6 +35,10 @@ PRODUCT_COPY_FILES += \
 # Purity U2D
 PRODUCT_COPY_FILES += \
     vendor/purity/prebuilt/apk/PurityU2D.apk:system/app/PurityU2D.apk
+
+# Needed for swype
+PRODUCT_COPY_FILES += \
+    vendor/purity/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 # APN
 PRODUCT_COPY_FILES += \

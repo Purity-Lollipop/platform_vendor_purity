@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
 
 # Needed for swype
 PRODUCT_COPY_FILES += \
-    vendor/purity/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/purity/prebuilt/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
 # APN
 PRODUCT_COPY_FILES += \

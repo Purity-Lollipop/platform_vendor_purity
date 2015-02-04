@@ -27,4 +27,6 @@ endif
 ifeq (purity_flo,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/purity_flo.mk
 endif
-
+ifeq (purity_shamu,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/purity_shamu.mk
+endif

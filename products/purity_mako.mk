@@ -27,7 +27,10 @@ PRODUCT_NAME := purity_mako
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:5.0/LRX21T/1576899:user/release-keys PRIVATE_BUILD_DESC="occam-user 5.0 LRX21T 1576899 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=occam \
+    BUILD_FINGERPRINT=google/occam/mako:5.1.1/LYZ28EB/1914015:user/release-keys \
+    PRIVATE_BUILD_DESC="occam-user 5.1.1 LYZ28EB 1914015 release-keys"
 
 # Boot Animation
 PRODUCT_COPY_FILES += \

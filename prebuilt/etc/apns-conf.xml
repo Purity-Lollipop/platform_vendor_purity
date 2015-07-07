@@ -46,8 +46,6 @@
   <apn carrier="Vodafone GR Prepaid" mcc="202" mnc="05" apn="webkarta.vodafone.gr" type="default,supl" />
   <apn carrier="Q-Telecom Internet" mcc="202" mnc="09" apn="myq" type="default,supl" />
   <apn carrier="Q-Telecom MMS" mcc="202" mnc="09" apn="q-mms.myq.gr" mmsc="http://mms.myq.gr" mmsproxy="192.168.80.134" mmsport="8080" type="mms" />
-  <apn carrier="WIND Internet" mcc="202" mnc="10" apn="gint.b-online.gr" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
-  <apn carrier="WIND MMS" mcc="202" mnc="10" apn="mnet.b-online.gr" proxy="" port="" mmsproxy="192.168.200.11" mmsport="9401" mmsc="http://192.168.200.95/servlets/mms" server="" user="" password="" type="mms" />
   <apn carrier="Cyta Mobile" mcc="202" mnc="14" apn="cytamobile" mmsc="http://mmsc.cyta.com.cy" mmsproxy="212.31.96.161" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Tele2 NL" mcc="204" mnc="02" apn="internet.tele2.nl" mmsc="http://mmsc.tele2.nl" mmsproxy="193.12.40.64" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Tele2 GPRS" mcc="204" mnc="02" apn="Tele2 GPRS" proxy="130.244.196.090" port="8080" mmsproxy="193.012.040.064" mmsport="8080" mmsc="" server="" user="" password="" type="default,supl,mms" />
@@ -338,8 +336,6 @@
   <apn carrier="Iusacell Internet" mcc="222" mnc="19" apn="web.iusacellgsm.mx" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="iusacellgsm" password="iusacellgsm" authtype="0" type="default,supl" />
   <apn carrier="Iusacell Modem" mcc="222" mnc="19" apn="modem.iusacellgsm.mx" user="iusacellgsm" password="iusacellgsm" type="dun" />
   <apn carrier="Iusacell MMS" mcc="222" mnc="19" apn="mms.iusacellgsm.mx" mmsproxy="" mmsport="" mmsc="http://mms.iusacell3g.com/" server="" user="mmsiusacellgsm" password="mmsiusacellgsm" type="mms" />
-  <apn carrier="Wind Internet" mcc="222" mnc="88" apn="internet.wind" proxy="" port="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" authtype="3" type="default,supl" />
-  <apn carrier="MMS Wind" mcc="222" mnc="88" apn="mms.wind" proxy="" port="" user="" password="" server="" mmsc="http://mms.wind.it" mmsproxy="212.245.244.100" mmsport="8080" authtype="3" type="mms" />
   <apn carrier="3" mcc="222" mnc="99" apn="tre.it" mmsc="http://10.216.59.240:10021/mmsc" mmsproxy="62.13.171.3" mmsport="8799" authtype="3" type="default,supl,mms" />
   <apn carrier="Fastweb" mcc="222" mnc="99" apn="apn.fastweb.it" mmsc="http://mms.fastweb.it/mms/wapenc" mmsproxy="10.0.65.9" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Vodafone live!" mcc="226" mnc="01" apn="live.vodafone.com" proxy="193.230.161.231" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="live" password="vodafone" authtype="3" type="default,supl" />
@@ -1073,10 +1069,6 @@
   <apn carrier="Fido Default" mcc="302" mnc="370" apn="fido-core-appl1.apn" mmsc="http://mms.fido.ca" mmsproxy="205.151.11.13" mmsport="80" type="default,supl,mms" />
   <apn carrier="Fido Internet" mcc="302" mnc="370" apn="internet.fido.ca" type="default,supl" />
   <apn carrier="Fido Tethering" mcc="302" mnc="370" apn="isp.fido.apn" type="default,supl" />
-  <apn carrier="Internet" mcc="302" mnc="490" apn="internet.windmobile.ca" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
-  <apn carrier="MMS" mcc="302" mnc="490" apn="mms.windmobile.ca" proxy="" port="" mmsproxy="74.115.197.70" mmsport="8080" mmsc="http://mms.windmobile.ca" server="" user="" password="" type="mms" />
-  <apn carrier="Wind CA" mcc="302" mnc="490" apn="internet.windmobile.ca" type="default,supl" />
-  <apn carrier="Wind CA MMS" mcc="302" mnc="490" apn="mms.windmobile.ca" mmsc="http://mms.windmobile.ca" mmsproxy="74.115.197.70" mmsport="8080" type="mms" />
   <apn carrier="Media" mcc="302" mnc="500" apn="media.ng" mmsc="http://media.videotron.com" type="default,supl,mms" />
   <apn carrier="Videotron" mcc="302" mnc="500" apn="media.ng" mmsc="http://media.videotron.com/" type="default,supl,mms" />
   <apn carrier="Media" mcc="302" mnc="510" apn="media.ng" mmsc="http://media.videotron.com" type="default,supl,mms" />
@@ -3628,4 +3620,10 @@
   <apn carrier="Claro MMS" mcc="748" mnc="10" apn="mms.ctimovil.com.uy" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.ctimovil.com.uy" server="" user="" password="" type="mms" />
   <apn carrier="Claro UY" mcc="748" mnc="10" apn="gprs.claro.com.uy" user="ctigpr" password="ctigpr999" type="default,supl" />
   <apn carrier="Claro UY MMS" mcc="748" mnc="10" apn="mms.ctimovil.com.uy" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.uy" mmsproxy="170.051.255.240" mmsport="9201" type="mms" />
+  <apn carrier="WIND GR" mcc="202" mnc="10" apn="gint.b-online.gr" type="default,supl" />
+  <apn carrier="WIND GR MMS" mcc="202" mnc="10" apn="mnet.b-online.gr" user="mms" password="mms" mmsc="http://192.168.200.95/servlets/mms" mmsproxy="192.168.200.11" mmsport="9401" type="mms" />
+  <apn carrier="Wind IT WEB" mcc="222" mnc="88" apn="internet.wind" type="default,supl" />
+  <apn carrier="Wind IT MMS" mcc="222" mnc="88" apn="mms.wind" mmsc="http://mms.wind.it" mmsproxy="212.245.244.011" mmsport="8080" type="mms" />
+  <apn carrier="Wind CA" mcc="302" mnc="490" apn="internet.windmobile.ca" type="default,supl" />
+  <apn carrier="Wind CA MMS" mcc="302" mnc="490" apn="mms.windmobile.ca" mmsc="http://mms.windmobile.ca" mmsproxy="74.115.197.70" mmsport="8080" type="mms" />
 </apns>
